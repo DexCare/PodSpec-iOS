@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = ["Framework/DexcareSDK.framework"]
 
   # DexcareSDK dependency
-  #s.dependency 'MBProgressHUD', '~> 1.2.0'
-  #s.dependency 'MessageKit', '~> 3.1.0'
-  #s.dependency 'PromiseKit/CorePromise', '~>6.13.1'
-  #s.dependency 'OpenTok', '~> 2.16.6'
+  s.dependency 'MBProgressHUD', '~> 1.2.0'
+  s.dependency 'MessageKit', '~> 3.1.0'
+  s.dependency 'PromiseKit/CorePromise', '~>6.13.1'
+  s.dependency 'OpenTok', '~> 2.16.6'
 
   ## ---------------------------------------------------------------------------
 
