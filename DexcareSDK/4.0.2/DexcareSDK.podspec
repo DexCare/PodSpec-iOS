@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license = 'private'
   s.authors = { 'Dexcare' => 'support@dexcarehealth.com'}
   s.source = {
-    :git => 'git@github.com:DexCare/PodSpec-iOS', :tag => "#{s.version}"
+    :git => 'git@github.com:DexCare/DexCareSDK-iOS.git', :tag => "#{s.version}"
   }
   s.module_name = 'DexcareSDK'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
